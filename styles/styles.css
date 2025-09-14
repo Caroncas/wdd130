@@ -27,7 +27,6 @@ p{
 }
 
 aside {
-    max-width: 150px;
     margin: 10px;
     border: 2px dotted rgb(0 0 0 / 70%);
     padding: 5px;
