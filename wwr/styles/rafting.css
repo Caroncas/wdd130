@@ -46,7 +46,7 @@ nav, p, section, article {
 
 .socialmedia a {
     text-decoration: none;
-    margin: 0, 10px;;
+    margin: 0 10px;
 }
 
 .hero {
@@ -60,7 +60,7 @@ nav, p, section, article {
 }
 
 h1 {
-   position: absolute;
+    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -71,11 +71,11 @@ h1 {
     font-size: 2em;
 }
 
-.hero article{
+.hero article {
     position: absolute;
     bottom: 1px;
     right: 1px;
-    width: 50%;
+    width: 30%;
     height: auto;
     padding: 10px;
     background-color: var(--accent3-color);
@@ -83,11 +83,13 @@ h1 {
 }
 
 .hero article img {
-    float: left;
-    width: 50%;
+    position: absolute;
+    bottom: 1px;
+    right: 10em;
+    float: right;
+    width: 70%;
     height: auto;
-    padding-right: 10px;
-    border: rgba (0,0,0 .1)
+    padding-left: 10px;
 }
 
 section{
@@ -96,4 +98,9 @@ section{
 
 footer {
     text-align: center;
+}
+
+h3{
+    font-family: var(--heading-font);
+    color: var(--primary-color)
 }
