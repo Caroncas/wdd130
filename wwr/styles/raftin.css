@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root {
+    --accent1-color: rgb(147, 26, 26); /*deep red*/
+    --secondary-color: rgb(4, 63, 4); /*forest green*/
+    --primary-color: rgb(194, 187, 179);
+    --accent2-color: rgb(241, 179, 65);
+    --accent3-color: rgb(31, 31, 60, 0.6);
+    --heading-font: "SquishyFont";
+    --body-font: Arial, Helvetica, sans-serif;
+    --font-size: 16px;
+}
+
+@font-face {
+    font-family: "SquishyFont";
+    src: url("../fonts/KBSquishyBlanket.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: var(--body-font);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);    
+}
+
+header, main, footer {
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 2em;
+    text-align: center;
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    margin: 0, 10px;;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+   position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.66;
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    font-size: 2em;
+}
+
+.hero article{
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    background-color: var(--accent3-color);
+    font-size: 1.2em;
+}
+
+.hero article img {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding-right: 10px;
+    border: rgba (0,0,0 .1)
+}
+
+section{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
