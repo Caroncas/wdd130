@@ -19,38 +19,46 @@ div {
 .one {
     width: 200px;
     height: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex {
     background-color: #aba;
-    /* write declarations here */
+    display: flex;
 
 }
 
 .grid {
     background-color: #abb;
     /* enter declarations here */
-
+    display: grid;
+    place-items: center;
 }
 
 .container2 {
     /* write declarations here */
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .two {
     background-color: #ace;
     height: 100px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .container3 {
     /* write declarations here */
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
 }
 
 .columns-3 {
     /* write declaration here */
-
+    grid-column: 1/4;
 }
 
 .three {
