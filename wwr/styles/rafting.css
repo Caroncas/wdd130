@@ -89,7 +89,7 @@ h1 {
     text-align: center;
     opacity: 0.66;
     background-color: var(--accent2-color);
-    color: var(--accent1-color);
+    color: var(--secondary-color);
     font-size: 2em;
 }
 
@@ -170,6 +170,7 @@ h3 {
 .adventure figure {
     grid-row: 2/3;
     text-align: center;
+    color: var(--primary-color);
 }
 
 .adventure figure img {
